@@ -6,10 +6,27 @@ html, body {
 	text-align: center;
 	scroll-behavior: smooth;
 	margin: 0px;
+	text-align: center;
+}
+
+body {
+	margin-bottom: 100px;
 }
 
 a {
 	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+h1, span, h2, h3 {
+	font-family: "Montserrat";
+}
+
+div.divider {
+	margin: 50px;
 }
 
 button {
@@ -48,7 +65,7 @@ button:hover {
 
 .nav {
 	z-index: 5;
-	position: sticky;
+/* 	position: fixed; */
 	top: 0;
 	width: 100%;
 	height: 50px;
@@ -57,9 +74,18 @@ button:hover {
 	justify-content: center;
 	align-items: center;
 	transition: 0.4s;
-  background-color: rgba(255, 255, 255, 0.05);
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
+/*   background-color: rgba(255, 255, 255, 0.05); */
+	background-color: blue;
+	transition: 0.5s;
+/* 	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px; */
+}
+
+.nav:hover {
+	background-color: #a600ff;
+	transition: 0.5s;
+	color: white;
+	transition: 0.5s;
 }
 
 span.nav {
@@ -72,12 +98,25 @@ span.nav {
 }
 
 a.nav{
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+/* 	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px; */
+	border-width: 5px;
+	border-color: white;
+}
+
+a.nav {
+	color: lightblue;
+}
+
+span.nav {
+	width: 100%;
+	height: 100%;
+	background: none;
 }
 
 span.nav:hover {
-	color: #1e00ff;
+	background: none;
+	color: #00eeeb;
 	transition: 0.4s;
 }
 
@@ -89,7 +128,7 @@ span.nav:hover {
 }
 
 div.sec1 {
-	height: 800px;
+	height: auto;
 	background-image: url("images/hills.gif");
 	background-size: 100% 100%;
 }
@@ -116,7 +155,7 @@ h3.sec1 {
 div.sec2 {
 	background-size: 100% 100%;
 	font-family: "Comfortaa";
-	height: 800px;
+	height: auto;
 }
 
 h3.sec2 {
@@ -134,7 +173,7 @@ h4.sec2 {
 }
 
 div.card {
-	height: 340px;
+	height: auto;
 	width: 240px;		
 /* 	position: absolute; */
 	margin-right: 30px;
@@ -162,6 +201,7 @@ h4.card {
 	margin-left: 5px;
 	margin-right: 5px;
 	color: black;
+	margin-bottom: 20px;
 }
 
 div.card:hover {
@@ -176,7 +216,7 @@ div.card:hover {
 
 div.sec3 {
 	margin-top: 40px;
-	height: 800px;
+	height: auto;
 	background-image: url("images/hills.jpg");
 	background-size: 100% 100%;
 }
@@ -203,4 +243,27 @@ div.sec5 {
 	background-image: url("images/abstract.jpeg");
 	background-size: 100% 100%;
 	font-family: "Montserrat";
+}
+
+
+/* Footer */
+div.footer {
+	margin-bottom: 50px;
+}
+
+footer.footer {
+	margin: 10px;
+	margin-top: 40px
+}
+
+img.footer {
+	height: 25px;
+	width: auto;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+img.footer:hover {
+	opacity: 0.7;
+	transition: 0.5s;
 }
