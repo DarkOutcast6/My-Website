@@ -29,6 +29,10 @@ div.divider {
 	margin: 50px;
 }
 
+.newline {
+	white-space: pre-line;	white-space: pre-line;
+}
+
 button {
 	width: 120px;
 	height: 40px;
