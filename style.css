@@ -397,3 +397,24 @@ ul.weirdButTrue {
 li.weirdButTrue {
   font-family: "Inter";
 }
+
+/* Amazfit GTR 4 */
+h1.gtr4 {
+  font-family: "Fredoka";
+  font-weight: 800px;
+}
+
+h3.gtr4 {
+  font-family: "Lexend";
+  font-weight: 500px;
+}
+
+span.weirdButTrue {
+  font-family: "Questrial";
+}
+
+img.gtr4 {
+  margin-top: 20px;
+  height: 200px;
+  width: auto;
+}
