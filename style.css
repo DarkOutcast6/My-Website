@@ -68,6 +68,7 @@ button:hover {
 }
 
 .nav {
+  padding: 0px;
 	z-index: 5;
 /* 	position: absolute; */
 	top: 0;
@@ -314,6 +315,8 @@ img.footer:hover {
 /* Article pages */
 .article {
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1.article {
