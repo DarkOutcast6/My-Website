@@ -172,12 +172,13 @@ h4.sec2 {
 }
 
 .cards {
-/* 	display: flex;
+	/* display: flex;
 	justify-content: center;
 	align-items: center; */
   margin-bottom: 80px;
 }
 
+/* Cards */
 div.card {
 	display: inline-block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
