@@ -487,9 +487,13 @@ h1.pageNotFound, h2.pageNotFound {
 img.pageNotFound {
   border: black solid 1px;
   border-radius: 30px;
-  margin-bottom: 100px;
 }
 
 button.pageNotFound {
   margin: 10px;
+  margin-bottom: 60px;
+}
+
+.inline {
+  display: inline;
 }
