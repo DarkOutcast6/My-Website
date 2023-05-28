@@ -479,3 +479,13 @@ img.gtr4 {
   height: 200px;
   width: auto;
 }
+
+h1.pageNotFound, h2.pageNotFound {
+  font-family: "Exo 2";
+}
+
+img.pageNotFound {
+  border: black solid 1px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
