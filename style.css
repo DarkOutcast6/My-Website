@@ -489,3 +489,7 @@ img.pageNotFound {
   border-radius: 30px;
   margin-bottom: 100px;
 }
+
+button.pageNotFound {
+  margin: 10px;
+}
