@@ -244,6 +244,10 @@ div.card {
 	margin-bottom: 25px;
 	opacity: 1;
 	transition: 0.5s;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);  
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 div.card:hover {
@@ -253,6 +257,10 @@ div.card:hover {
 	transition: 0.4s;
 	opacity: 0.8;
 	transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 img.card {
@@ -266,12 +274,12 @@ img.card {
 	transition: 0.4s;
 }
 
-img.card:hover {
+/* img.card:hover {
 	box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.4);
 	transition: 0.4s;
 	border-radius: 20px;
 	transition: 0.4s;
-}
+} */
 
 h3.card {
 	margin-top: 5px;
@@ -345,22 +353,25 @@ footer.footer {
 }
 
 img.footer {
-	height: 23px;
+	height: 27px;
 	transition: 0.5s;
 	width: auto;
 	transition: 0.5s;
 	opacity: 1;
 	transition: 0.5s;
   border-radius: 500px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
-img.footer:hover {
-	opacity: 0.7;
-	transition: 0.5s;
-	height: 25px;
-	transition: 0.5s;
-	width: auto;
-	transition: 0.5s;
+img.footer:hover, img.footer:focus, img.footer:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 
