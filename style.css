@@ -331,7 +331,7 @@ h4.sec3 {
 }
 
 img.sec3 {
-	width: 85%;
+	width: 55%;
 	height: auto;
 }
 
@@ -516,6 +516,8 @@ h1.pageNotFound, h2.pageNotFound {
 img.pageNotFound {
   border: black solid 1px;
   border-radius: 30px;
+  width: 40%;
+  height: auto;
 }
 
 button.pageNotFound {
