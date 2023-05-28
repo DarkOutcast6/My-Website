@@ -33,6 +33,24 @@ div.divider {
 	white-space: pre-line;
 }
 
+img.profile-pic {
+  border-radius: 500px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);  
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  margin: 20px;
+  width: 150px;
+  height: auto;
+}
+
+img.profile-pic:hover, img.profile-pic:focus, img.profile-pic:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
 /* Rainbow button */
 button {
   font-family: "Montserrat";
@@ -507,4 +525,33 @@ button.pageNotFound {
 
 .inline {
   display: inline;
+}
+
+/* NEW HOME PAGE */
+div.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+}
+
+div#sec1 {
+  background-image: url("images/mountains.jpg");
+  background-repeat: no-repeat;
+	background-size: 100% 100%;
+  height: 800px;
+  width: 100%;
+  color: white;
+  /* filter: blur(6px);
+  -webkit-filter: blur(6px); */
+}
+
+h1#sec1 {
+  z-index: 100;
+  border-bottom: 3px solid white;
+  width: 200px;
+  display: inline-block;
+  padding: 20px;
+  /* padding-right: -10px; */
+  margin-bottom: -10px;
 }
