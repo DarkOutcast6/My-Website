@@ -428,7 +428,7 @@ img.jameswebb {
   height: auto;
 }
 
-/* Jerboas */
+/* Jerboas */e
 h1.jerboa {
   font-family: "Fjalla One";
   font-weight: 700px;
@@ -534,40 +534,48 @@ div.home {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 div#sec1 {
-  display: flex;
-  text-align: left;
+  text-align: center;
   /* background-image: url("images/gradient.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%; */
+  /* background-color: #2600ad; */
+  background-color: #000000;
 }
 
 h1#sec1 {
-  margin-top: 200px;
+  /* margin-top: 200px; */
   font-family: "Inter";
-  color: black;
-  text-align: left;
+  color: white;
+  /* text-align: left; */
   padding-top: 30px;
   padding-left: 30px;
 }
 
 h2#sec1 {
-  color: gray;
+  color: white;
   font-family: "Comfortaa";
-  text-align: left;
+  /* text-align: left; */
   padding-left: 30px;
   /* margin-top: 100px; */
 }
 
 img#sec1 {
+  /* position: relative; */
   width: 350px;
   height: auto;
-  text-align: right;
-  margin-left: 100%;
-  margin-top: 60px;
-  /* margin-left: 200%;
-  padding-top: 100px; */
+  /* text-align: right; */
+}
+
+/* Sec2 */
+div#sec2 {
+  display: flex;
+  text-align: center;
+  background-color: #2600ad;
 }
