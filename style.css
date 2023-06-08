@@ -42,13 +42,19 @@ img.profile-pic {
   margin: 20px;
   width: 150px;
   height: auto;
+  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.4);
 }
 
-img.profile-pic:hover, img.profile-pic:focus, img.profile-pic:active {
+img.profile-pic:hover, img.profile-pic:focus {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+img.profile-pic:active {
+  -webkit-transform: scale(.90);
+  transform: scale(.90); 
 }
 
 /* Rainbow button */
@@ -576,6 +582,12 @@ img#sec1 {
 /* Sec2 */
 div#sec2 {
   display: flex;
-  text-align: center;
   background-color: #2600ad;
+}
+
+div.column {
+  height: 100%;
+  /* width: 50%; */
+  flex: 50%;
+  background-color: red;
 }
